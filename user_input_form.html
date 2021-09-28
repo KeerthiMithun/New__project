@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>User_input_form</title>
+</head>
+<body bgcolor="pink">
+<h1>User Input Form</h1>
+<form action="form.html" method="post">
+<fieldset>
+<legend>Personal Particular</legend>
+Name     :
+<input type="text" name="name" placeholder="enter the name" required/><br>
+<br>
+Password :
+<input type="password" name="pass" placeholder="enter the pass" maxlength=8 minlength=4 required/>
+<br><br>
+Gender:
+<input type="radio" name="sex" value="male"/>Male
+<input type="radio" name="sex" value="female"/>Female
+<br>
+<br>
+Age:
+<select name="age" size=1>
+<option value="less 1" selected>&lt 1 year old</option>
+<option value="1 to 10">1 to 10 year old</option>
+<option value="11 to 20">11 to 20 year old</option>
+<option value="21 to 30">21 to 30 year old</option>
+<option value="31 to 40">31 to 40 year old</option>
+<option value="41 to 50">41 to 50 year old</option>
+<option value="51 to 60">51 to 60 year old</option>
+</select>
+</fieldset>
+<fieldset>
+<legend>
+Languages
+</legend>
+<input type="checkbox" name="box" value="java"/>Java
+<input type="checkbox" name="box" value="c/c++"/>C/C++
+<input type="checkbox" name="box" value="c#"/>C#  
+</fieldset>
+<fieldset>
+<legend>Instructions</legend>
+<textarea rows=10 cols=80 placeholder="Enter your instructions here...">
+</textarea>
+</fieldset>
+<br>
+<br>
+<input type="submit" value="SEND"/>&nbsp&nbsp&nbsp
+<input type="reset" value="CLEAR"/>
+</form>
+</body>
+</head>
